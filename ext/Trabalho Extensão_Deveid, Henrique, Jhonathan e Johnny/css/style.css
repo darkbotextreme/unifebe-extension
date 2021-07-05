@@ -1,0 +1,91 @@
+body {
+    width: 100%; /*largura*/
+    height: 100%; /*altura*/
+    margin: 0 auto; /**/
+}
+
+.menu-primário {
+    width: 100%; /**/
+    background-color: rgb(26, 138, 31); /*cor do menu primário*/
+    height: 70px; /**/
+    color: white; /**/
+    text-align: left; /**/
+}
+
+.logo {
+    float: left; /**/
+    text-shadow: black 0.3em 0.3em 0.2em; /*efeito de sombra + 3d*/
+}
+
+#nomesite {
+    text-align: center;
+}
+
+.menu-final {
+    width: 100%; /**/
+    background-color: rgb(26, 138, 31); /*cor do menu primário*/
+    height: 80px; /**/
+    color: white; /**/
+    text-align: left; /**/
+}
+
+.content_final {
+	height: 0vh; /*espaço em relação a altura entre as divs*/
+}
+
+main {
+    margin: 0 auto; /**/
+    width: 980px; /**/
+    position: relative; /**/
+}
+
+.header-2 {
+    background-color: white; /**/
+    width: 980px; /**/
+    border-bottom: 3px solid white;
+    margin: 0 auto; /**/
+    
+}
+
+
+.col-100 {
+    width: 100%; /**/
+    position: relative; /**/
+    border-bottom: 2px solid rgb(160, 160, 160); /**/
+    height: 60px; /**/
+}
+
+ul {
+    padding: 0px!important; /**/
+}
+
+#lista_links {
+    float: left; /**/
+}
+
+.menu ul li {
+    display: inline-block; /**/
+    color: rgb(139, 139, 139); /**/
+    margin-left: 13px; /**/
+    height: 47px; /**/
+}
+
+
+
+.menu ul li a:hover {
+    color: rgb(11, 168, 116); /**/
+}
+
+.menu ul li a {
+    color: rgb(139, 139, 139); /**/
+    text-decoration: none; /**/
+    font-size: 17px; /**/
+    text-transform: uppercase; /**/
+}
+
+.menu {
+    width: 70%; /**/
+    float: left; /**/
+    color: white; /**/
+
+}
